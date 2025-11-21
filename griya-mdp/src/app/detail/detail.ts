@@ -11,6 +11,7 @@ import { HOUSING_DATA } from '../data/housing-data';  // ← Import shared data
   templateUrl: './detail.html',
   styleUrl: './detail.css'
 })
+
 export class Detail implements OnInit {
   housing: Housing | null = null;
   isLoading: boolean = true;
