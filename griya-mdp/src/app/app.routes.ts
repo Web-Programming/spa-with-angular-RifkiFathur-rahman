@@ -30,7 +30,7 @@ export const routes: Routes = [
         path : "contact",
         component : Contact,
     },
-    {
+     {
         path: "property/:id",
         component: Detail,
         title: 'Detail Property - Griya MDP'
